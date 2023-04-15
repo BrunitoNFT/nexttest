@@ -1,0 +1,27 @@
+.mainButton {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.mainButton__button {
+  width: 200px;
+  height: 35px;
+  background-color: #02cc67;
+  border: none;
+  color: white;
+  transform: 1s all;
+  cursor: pointer;
+}
+
+.mainButton__button:hover {
+  transform: scale(1.1);
+}
+
+.chargingButton {
+  opacity: 0.3;
+}

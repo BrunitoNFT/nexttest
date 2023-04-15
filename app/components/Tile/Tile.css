@@ -1,0 +1,22 @@
+.tile {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-color: #d7d7d766;
+}
+
+svg {
+  opacity: 0;
+  cursor: pointer;
+}
+.tile:hover svg {
+  opacity: 1;
+}
+
+.tile:hover {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
