@@ -15,9 +15,7 @@ async function fetchFromTheServer(quantity) {
     const serverResponseJson = await serverResponse.json();
     console.log('a: ', serverResponseJson);
     return serverResponseJson.map(face => face.url);
-  } catch {
-    alert('There was an error with the server');
-  }
+  } catch {}
   return [];
 }
 
